@@ -1,47 +1,47 @@
-# Windows image file caches
-Thumbs.db
+# Ignore OS generated files
 ehthumbs.db
+Thumbs.db
 
-# Folder config file
-Desktop.ini
+# Ignore Editor files
+*.sublime-project
+*.sublime-workspace
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Thumbnails
+# osx specific files
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
 ._*
+*.swp
+*.swo
+*.swn
 
-# Files that might appear in the root of a volume
-.DocumentRevisions-V100
-.fseventsd
-.Spotlight-V100
-.TemporaryItems
-.Trashes
-.VolumeIcon.icns
+# Ignore log files
+*.log
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Ignore compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Ignore node/grunt dependency directories
+node_modules
+.tmp
+.sass-cache
+bower_components
+.publish
+docs/_site
